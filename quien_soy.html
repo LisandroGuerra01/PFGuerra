@@ -1,172 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/quiensoy.css">
-        <script src="https://kit.fontawesome.com/6c3a990f98.js" crossorigin="anonymous"></script>
-        <title>CPN Lisandro Guerra</title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quien soy</title>
+    <script src="https://kit.fontawesome.com/6c3a990f98.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/quien-soy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
 <body>
-    <div class="grid">
-        <header class="cabecera" id="quiensoy">
-            <div class="navdiv">
-                <div class="divredes">
-                    <ul>
-                        <li>
-                            <a href="https://www.instagram.com/lisandroguerra/">
+    <div>
+        <header class="fondo" style="background-image: url(./images/banner3.jpg)">
+            <div class="barrazul container-fluid text-bg-primary">
+                <div class="row">
+                    <div class="col">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="https://www.instagram.com/lisandroguerra/" target="blank">
+                                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.youtube.com/" target="blank">
+                                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/lisandroguerracpn/"
+                                    target="blank">
+                                    <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">
+                                    <i class="fa-sharp fa-solid fa-phone" style="color: #fcfcfc;"></i>+549 (381)-5667777
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text text-white" href="#">
+                                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                                    cpnlisandroguerra@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="barra navbar navbar-expand-md text-bg-secondary fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="./images/logo_bueno.png" alt="logo" class="img-fluid" width="200px">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">INICIO</a>
+                            </li>
+                            <li class=" nav-item">
+                                <a class="nav-link text-white" href="#">¿QUIEN SOY?</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown">SERVICIOS</a>
+                                <ul class="dropdown-menu text-bg-secondary">
+                                    <li>
+                                        <a class="dropdown-item text-white" href="">serv 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="">serv 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="">serv 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="">serv 4</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class=" nav-item">
+                                <a class="nav-link text-white" href="#">CONSULTORÍA</a>
+                            </li>
+                            <li class=" nav-item">
+                                <a class="nav-link text-white" href="#">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem id mollitia recusandae error officiis
+                facilis consequatur nobis porro nam necessitatibus corrupti a minima, quos est ipsa officia, dolore
+                beatae? Consequatur, impedit. Aperiam totam officia alias soluta cupiditate repellat harum sint,
+                voluptas at saepe a velit placeat minus eaque perferendis aspernatur cum, dolorum, consequuntur fuga
+                facilis quasi. Dicta officiis recusandae cumque deleniti adipisci perferendis eveniet placeat facere
+                unde eaque ipsa sint, accusantium, nam soluta voluptates architecto vitae itaque harum est iste? Minima
+                saepe aliquid architecto earum nihil accusantium! Reprehenderit repellendus neque provident pariatur
+                libero magnam maxime itaque quasi, natus quam numquam modi veniam quis ipsa temporibus assumenda tenetur
+                similique commodi aut sunt. Harum obcaecati assumenda nobis quaerat placeat nemo quia minima sapiente
+                quisquam inventore. Qui fugiat assumenda autem tempore beatae ullam debitis, cumque ad! Tempora eius,
+                dolore facilis placeat, error recusandae aspernatur reprehenderit nostrum quos perspiciatis libero
+                quibusdam omnis magnam sit atque laborum. Aliquid ipsum repudiandae laborum placeat rem exercitationem
+                asperiores quas vel vero eius sed eligendi ipsa, quis sapiente, voluptates debitis amet consectetur nam
+                aliquam magni minima incidunt illo consequuntur! Recusandae nihil alias unde suscipit, odio cum illum
+                similique expedita porro delectus blanditiis, commodi optio. Magni necessitatibus, beatae praesentium
+                tenetur atque quos ipsum sit? Error possimus, recusandae provident facere voluptas enim, assumenda magni
+                eligendi non reiciendis, veritatis odit. Aliquid praesentium veniam fugit laudantium commodi, recusandae
+                pariatur vero molestiae. Totam doloremque tempora ullam? Ea voluptatum omnis suscipit molestias dolorem
+                odio minus, possimus quibusdam adipisci at? Omnis totam cumque facilis, magni alias expedita reiciendis
+                iste suscipit eligendi fuga esse fugit, porro praesentium delectus quod cupiditate excepturi at rerum
+                unde blanditiis et ullam provident repellendus voluptatem? Quod deleniti quia veritatis eos et illum
+                corrupti quaerat. Amet, explicabo! Dolorem dicta ad commodi neque, quidem eligendi voluptatem at
+                voluptatum omnis, a distinctio voluptatibus, possimus atque eum sequi! Adipisci ad odit rerum tenetur
+                porro consequatur harum doloremque repudiandae. Accusantium molestiae praesentium sapiente eveniet
+                corporis ullam explicabo ipsam magni quos, illo quisquam, esse quis assumenda recusandae! Enim vero ea
+                quaerat quia deserunt aut vitae nesciunt eius quae hic repellendus nam, facilis aliquid. Adipisci
+                corrupti dolor quisquam autem velit laborum cupiditate illum cum dolorem quas vero voluptatibus, quam
+                fugiat esse magni doloribus quibusdam animi harum. Nulla totam minima consequatur, sunt nobis sint
+                suscipit porro dignissimos aliquam optio eum error aspernatur autem labore necessitatibus laborum odio
+                eligendi at, perspiciatis iste. Consequatur eaque, beatae magni corporis fugiat enim. Deleniti, sint,
+                dolorem animi accusantium maxime similique dolore beatae non deserunt repudiandae, labore quasi.
+                Architecto et officiis placeat? Facilis soluta aperiam saepe voluptates doloribus, adipisci incidunt
+                temporibus nesciunt maiores, minus similique, atque illo dolorum explicabo inventore deleniti quis illum
+                voluptatem amet. Exercitationem incidunt voluptatem minima libero itaque, sunt voluptatum, aspernatur
+                repellendus a rerum earum nostrum quasi suscipit ducimus? Deleniti saepe qui libero suscipit error cum
+                incidunt dolores omnis temporibus minus quo, obcaecati ad nemo sint voluptatem quisquam quidem assumenda
+                reiciendis ut officia quasi hic doloribus quia! Debitis, quos, illo ut quam repellat dicta tenetur,
+                molestiae fugiat necessitatibus quasi nisi. Adipisci, excepturi optio!</p>
+        </main>
+
+        <footer class="container-fluid text-center">
+            <div class="row text-bg-primary p-4">
+                <div class="col">
+                    <a href="">
+                        <img src="./images/logo_bueno.png" alt="logo" class="img-fluid" width="400">
+                    </a>
+                </div>
+            </div>
+            <div class="row text-bg-dark p-3">
+                <div class="col">
+                    <div class="row">
+                        <a href="tel:+5498315667777" style="color: #fcfcfc;">
+                            <i class="bi bi-telephone-fill fs-1" style="color: #fcfcfc;"></i> WhatsApp
+                        </a>
+                    </div>
+                    <div>
+                        <p>+549(381)-5667777</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <a href="#" style="color: #fcfcfc;">
+                            <i class="bi bi-envelope-paper fs-1" style="color: #fcfcfc;"></i> Email
+                        </a>
+                    </div>
+                    <div>
+                        <p>cpnlisandroguerra@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <a href="#" style="color: #fcfcfc;">
+                            <i class="bi bi-geo-alt-fill fs-1"></i> Ubicación
+                        </a>
+                    </div>
+                    <div>
+                        <p>San Miguel de Tucumán, Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-bg-primary p-4">
+                <div class="col">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-2" aria-current="page"
+                                href="https://www.instagram.com/lisandroguerra/" target="blank">
                                 <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="nav-item">
+                            <a class="nav-link fs-2" href="https://www.youtube.com/" target="blank">
                                 <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/lisandroguerracpn/">
+                        <li class="nav-item">
+                            <a class="nav-link fs-2" href="https://www.linkedin.com/in/lisandroguerracpn/"
+                                target="blank">
                                 <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="divcontac">
-                    <ul>
-                        <li>
-                            <i class="fa-sharp fa-solid fa-phone" style="color: #fcfcfc;"></i>
-                            <a href="tel:5498315667777">
-                                +549 (381)-5667777
+                <div class="col">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-2" aria-current="page" href="#" target="blank">
+                                <i class="bi bi-currency-bitcoin" style="color: #ffffff;"></i>
                             </a>
                         </li>
-                        <li>
-                            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
-                            <a href="lisandroguerra01@gmail.com">
-                                cpnlisandroguerra@gmail.com
+                        <li class="nav-item">
+                            <a class="nav-link fs-2" href="#" target="blank">
+                                <i class="bi bi-credit-card" style="color: #ffffff;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2" href="#" target="blank">
+                                <i class="bi bi-credit-card-2-back-fill" style="color: #ffffff;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2" href="#" target="blank">
+                                <i class="bi bi-cash-stack" style="color: #ffffff;"></i>
                             </a>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <nav class="navbar">
-                <div class="brand">
-                    <a href="./index.html">
-                        <img src="./images/logo_bueno.png" alt="logo">
-                    </a>
-                </div>
-                <div class="menu">
-                    <ul><b>
-                        <li>
-                            <a href="./index.html">INICIO</a>
-                        </li>
-                        <li>
-                            <a href="./quien_soy.html">¿QUIÉN SOY?</a>
-                        </li>
-                        <li>
-                            <a href="./servicios.html">SERVICIOS</a>
-                        </li>
-                        <li>
-                            <a href="./consultoria.html">CONSULTORÍA</a>
-                        </li>
-                        <li>
-                            <a href="./contacto.html">CONTACTO</a>
-                        </li>
-                        </b>
-                    </ul>
-                </div>
-            </nav>
-            <div class="qs">
-                <h2>¿Quién soy?</h2>
-            </div>
-        </header>
-        <div class="qsmain">
-            <h3>Un poco <span>Sobre Mi</span></h3>
-            <ul>
-                <li>Soy Lisandro, un contador graduado de la Universidad Nacional de Tucumán. Con especialización en el área impositiva y contable, mi objetivo es brindarte soluciones confiables y efectivas. Mi formación académica sólida y mi capacidad para aplicar los complejos conceptos contables e impositivos me permiten ofrecerte servicios contables personalizados y estratégicos.</li>
-                <li>Como especialista en impuestos, estoy al tanto de las leyes fiscales en constante cambio y puedo ayudarte con asesoramiento, planificación fiscal y resolución de problemas impositivos. Además, mi enfoque contable se basa en la precisión y la integridad, ofreciéndote servicios como la elaboración de estados financieros, análisis de costos y gestión de presupuestos. Mi objetivo es proporcionarte el soporte necesario para que puedas concentrarte en hacer crecer tu negocio mientras yo me encargo de los aspectos financieros.</li>
-                <li>item 3</li>
-                <li>item 4</li>
-            </ul>
-        </div>
-        <div class="qsimg">
-            <img src="../PreEntregaGuerra/images/conta6.jpg" alt="mi foto">
-        </div>
-        <footer>
-            <div class="footerlogo">
-                <a href="./index.html">
-                    <img src="./images/logo_bueno.png" alt="logo">
-                </a>
-            </div>
-            <div class="footercont">
-                <ul>
-                    <li>
-                        <a href="tel:+5498315667777">
-                            <i class="fa fa-phone" style="color: #ffffff;"></i>
-                        </a>
-                        <div class="wp">
-                            <p>WhatsApp</p>
-                            <a href="tel:+5498315667777">
-                                +549 (381) 5667777
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="mailto:cpnlisandroguerra@gmail.com">
-                            <i class="fa fa-envelope" style="color: #ffffff;"></i>
-                        </a>
-                        <div class="wp">
-                            <p>Email</p>
-                            <a href="mailto:cpnlisandroguerra@gmail.com">
-                                cpnlisandroguerra@gmail.com
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="https://goo.gl/maps/GN9qEXgitfdsFgAM8">
-                            <i class="fa fa-map-marker" style="color: #ffffff;"></i>
-                        </a>
-                        <div class="wp">
-                            <p>Ubicación</p>
-                            <a href="https://goo.gl/maps/GN9qEXgitfdsFgAM8" target="_blank">
-                                San Miguel de Tucumán, Argentina
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="footerinfo">
-                <div class="copy">
-                    <i class="fa-solid fa-copyright" style="color: #ffffff;"></i>
-                    2023 cpnlisandroguerra Todos los derechos reservados
-                </div>
-                <div class="footredes">
-                    <div>
-                        <a href="https://www.instagram.com/lisandroguerra/">
-                            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.linkedin.com/in/lisandroguerracpn/">
-                            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="pago">
-                    Formas de pago
-                    <i class="fa-brands fa-btc"></i>
-                    <i class="fa-brands fa-cc-visa"></i>
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                    <i class="fa-brands fa-cc-paypal"></i>
-                    <i class="fa-brands fa-cc-amex"></i>
-                    <i class="fa-solid fa-money-bill-transfer"></i>
                 </div>
             </div>
         </footer>
