@@ -1,17 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-*{
-    font-family: 'Roboto', sans-serif;
-}
-
-/* anchor */
-a{
-    text-decoration: none;
-}
-
 /* barra navegación */
 #index{
     width: 100%;
@@ -22,15 +8,7 @@ a{
     background-size: cover;
 }
 
-
 /* barra navegacion */
-
-.brand img{
-    width: 250px;
-}
-.cabecera a{
-    color: white;
-}
 
 .fondo{
     width: 100%;
