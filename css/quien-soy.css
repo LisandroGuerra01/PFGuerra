@@ -30,6 +30,14 @@
     .fondo{
         height: 30vh;
     }
+    .footer-contact{
+        display: grid;
+    }
+    .footer-redes{
+        display: grid;
+        row-gap: 20px;
+        font-size: smaller;
+    }
 }
 
 @media (max-width: 991.98px) {
