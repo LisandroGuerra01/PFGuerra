@@ -18,6 +18,10 @@
     width: 100%;
     padding-top: 40px;
 }
+.sobremi{
+    color: rgb(77, 77, 77);
+}
+
 
 
 /* MEDIA QUERIES */
@@ -37,6 +41,9 @@
         display: grid;
         row-gap: 20px;
         font-size: smaller;
+    }
+    .main-foto{
+        display: none;
     }
 }
 
