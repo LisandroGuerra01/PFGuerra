@@ -30,6 +30,17 @@
     .fondo{
         height: 30vh;
     }
+<<<<<<< HEAD
+=======
+    .footer-contact{
+        display: grid;
+    }
+    .footer-redes{
+        display: grid;
+        row-gap: 20px;
+        font-size: smaller;
+    }
+>>>>>>> dev
 }
 
 @media (max-width: 991.98px) {
@@ -42,4 +53,8 @@
 
 @media (max-width: 1399.98px) {
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dev
