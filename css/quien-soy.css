@@ -21,13 +21,14 @@
 .sobremi{
     color: rgb(77, 77, 77);
 }
-
-
+.header-brand{
+    width: 50%;
+}
 
 /* MEDIA QUERIES */
 
 @media (max-width: 575.98px) { 
-
+    
 }
 
 @media (max-width: 767.98px) { 
@@ -42,17 +43,21 @@
         row-gap: 20px;
         font-size: smaller;
     }
-    .main-foto{
+}
+
+@media (min-width: 991.98px) {
+    .asd{
         display: none;
     }
 }
 
-@media (max-width: 991.98px) {
-    
-}
-
-@media (max-width: 1199.98px) {
-    
+@media (max-width: 968px) {
+    .header-azul-contacto{
+        display: none;
+    }
+    .boton-hamburguesa{
+        display: block;
+    }
 }
 
 @media (max-width: 1399.98px) {
