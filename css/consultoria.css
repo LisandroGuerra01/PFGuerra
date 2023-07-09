@@ -21,7 +21,9 @@
 .header-brand{
     width: 50%;
 }
-
+.img-consulta div figure img{
+    
+}
 /* MEDIA QUERIES */
 
 @media (max-width: 575.98px) { 
