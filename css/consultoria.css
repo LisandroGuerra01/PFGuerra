@@ -18,8 +18,9 @@
     width: 100%;
     padding-top: 40px;
 }
-
-
+.header-brand{
+    width: 50%;
+}
 
 /* MEDIA QUERIES */
 
@@ -47,8 +48,13 @@
     }
 }
 
-@media (max-width: 1199.98px) {
-    
+@media (max-width: 968px) {
+    .header-azul-contacto{
+        display: none;
+    }
+    .boton-hamburguesa{
+        display: block;
+    }
 }
 
 @media (max-width: 1399.98px) {
