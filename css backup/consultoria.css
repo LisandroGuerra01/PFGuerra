@@ -1,0 +1,64 @@
+.fondo{
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.barrazul{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: ease-in-out;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 40px;
+}
+.header-brand{
+    width: 50%;
+}
+.img-consulta div figure img{
+    
+}
+/* MEDIA QUERIES */
+
+@media (max-width: 575.98px) { 
+    
+}
+
+@media (max-width: 767.98px) { 
+    .fondo{
+        height: 30vh;
+    }
+    .footer-contact{
+        display: grid;
+    }
+    .footer-redes{
+        display: grid;
+        row-gap: 20px;
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .asd{
+        display: none;
+    }
+}
+
+@media (max-width: 968px) {
+    .header-azul-contacto{
+        display: none;
+    }
+    .boton-hamburguesa{
+        display: block;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    
+}
