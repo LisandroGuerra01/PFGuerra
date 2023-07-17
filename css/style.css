@@ -22,11 +22,14 @@ header div.barrazul {
 header nav.barra {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1 100%;
   padding-top: 40px;
 }
 header nav.barra div.collapse a:hover {
   text-decoration: underline;
+}
+header nav.barra a:hover {
+  background-color: grey;
 }
 
 /* servicios */

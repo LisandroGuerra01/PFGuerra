@@ -1,5 +1,5 @@
-@import "reset";
-@import "variables";
+@import "./partials/reset";
+@import "./partials/variables";
 
 /* barra navegacion */
 header{
@@ -20,13 +20,17 @@ header{
     nav.barra{
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 1$anchoMax;
         padding-top: 40px;
 
         div.collapse{
             a:hover{
                 text-decoration: underline;
             }
+        }
+
+        a:hover{
+            background-color: grey;
         }
     }
 }
@@ -196,4 +200,5 @@ span{
     width: 50%;
 }
 
-@import "queries";
+// @import "./partials/bucles"
+@import "./partials/queries";

@@ -1,0 +1,21 @@
+@for $i from 1 through 6{
+
+}
+
+/*each*/
+@each $color in red, green, yellow, #ccc, #ff2241{
+    background-color: $color;
+}
+
+/*map */
+
+$btn-colors:(
+    naranja: orange,
+    gris: grey,
+    amarillo: yellow,
+    verde: green,
+);
+
+@each $btn-colors, $color in $btn-colors{
+
+}
