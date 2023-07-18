@@ -22,7 +22,7 @@ header div.barrazul {
 header nav.barra {
   position: fixed;
   top: 0;
-  width: 1 100%;
+  width: 100%;
   padding-top: 40px;
 }
 header nav.barra div.collapse a:hover {
@@ -33,57 +33,30 @@ header nav.barra a:hover {
 }
 
 /* servicios */
-.servmain .globo {
+main {
+  /* Asesorate */
+}
+main .servmain .globo {
   border: 2px solid rgba(221, 221, 221, 0.658);
   background-color: rgba(231, 223, 212, 0.719);
   border-radius: 8px;
   box-shadow: 5px 5px 10px;
 }
-.servmain .globo img {
+main .servmain .globo img {
   width: 20rem;
   border-radius: 8px;
   box-shadow: 5px 5px 10px;
 }
-
-.desc {
-  display: inline-block;
-  align-items: center;
-  width: 400px;
-}
-
-.desc p {
-  padding: 30px 0px;
-}
-
-/* Asesorate */
-.asesorate {
+main .asesorate {
   padding: 140px 200px;
   color: rgb(255, 255, 255);
-  background-color: #3d8af7;
   background-image: url(../images/banner4.jpg); /*cambiar esta imagen*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(54, 54, 54, 0.3);
-  text-shadow: 2px 1px 2px black;
+  text-shadow: 2px 1px 3px rgb(0, 0, 0);
 }
-
-.divasesor p {
-  width: 50%;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: 20px;
-}
-
-.divasesor textarea {
-  width: 50%;
-  height: 150px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border-color: rgb(165, 165, 165);
-}
-
-.asesorate h3 {
+main .asesorate h3 {
   padding-bottom: 15px;
   font-size: 30px;
   font-style: oblique;
