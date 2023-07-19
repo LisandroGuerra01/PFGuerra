@@ -15,20 +15,16 @@ header {
 header div.barrazul {
   position: sticky;
   top: 0;
-  width: 100%;
   z-index: 9999;
   transition: ease-in-out;
 }
 header nav.barra {
   position: fixed;
   top: 0;
-  width: 100%;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 header nav.barra div.collapse a:hover {
   text-decoration: underline;
-}
-header nav.barra a:hover {
   background-color: grey;
 }
 
@@ -36,13 +32,13 @@ header nav.barra a:hover {
 main {
   /* Asesorate */
 }
-main .servmain .globo {
+main .main-servicios .globo {
   border: 2px solid rgba(221, 221, 221, 0.658);
   background-color: rgba(231, 223, 212, 0.719);
   border-radius: 8px;
   box-shadow: 5px 5px 10px;
 }
-main .servmain .globo img {
+main .main-servicios .globo img {
   width: 20rem;
   border-radius: 8px;
   box-shadow: 5px 5px 10px;

@@ -12,7 +12,6 @@ header{
     div.barrazul{
         position: sticky;
         top: 0;
-        width: $anchoMax;
         z-index: 9999;
         transition: ease-in-out;
     }
@@ -20,24 +19,20 @@ header{
     nav.barra{
         position: fixed;
         top: 0;
-        width: $anchoMax;
-        padding-top: 40px;
+        padding-top: 2.5rem;
 
         div.collapse{
             a:hover{
                 text-decoration: underline;
+                background-color: grey;
             }
-        }
-
-        a:hover{
-            background-color: grey;
         }
     }
 }
 
 /* servicios */
 main{
-    .servmain{
+    .main-servicios{
         .globo{
             border: 2px solid rgba(221, 221, 221, 0.658);
             background-color: rgba(231, 223, 212, 0.719);
