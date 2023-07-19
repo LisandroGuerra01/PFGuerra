@@ -12,6 +12,7 @@ header{
     div.barrazul{
         position: sticky;
         top: 0;
+        width: $anchoMax;
         z-index: 9999;
         transition: ease-in-out;
     }
@@ -19,13 +20,18 @@ header{
     nav.barra{
         position: fixed;
         top: 0;
-        padding-top: 2.5rem;
+        width: $anchoMax;
+        padding-top: 40px;
 
         div.collapse{
             a:hover{
                 text-decoration: underline;
-                background-color: grey;
             }
+        }
+
+        a:hover{
+            background-color: grey;
         }
     }
 }
+@import "./partials/queries";

@@ -1,3 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+/* barra navegacion */
+header {
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header div.barrazul {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: ease-in-out;
+}
+header nav.barra {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 40px;
+}
+header nav.barra div.collapse a:hover {
+  text-decoration: underline;
+}
+header nav.barra a:hover {
+  background-color: grey;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 767.98px) {
+  .fondo {
+    height: 30vh;
+  }
+  .footer-contact {
+    display: grid;
+  }
+  .footer-redes {
+    display: grid;
+    row-gap: 20px;
+    font-size: smaller;
+  }
+}
+@media (min-width: 991.98px) {
+  .asd {
+    display: none;
+  }
+}
+@media (max-width: 968px) {
+  .header-azul-contacto {
+    display: none;
+  }
+  .boton-hamburguesa {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=servicios.css.map */

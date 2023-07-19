@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"ddjj_gcia_bs_pers.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/partials/_reset.scss","../scss/ddjj_gcia_bs_pers.scss","../scss/partials/_variables.scss","../scss/partials/_queries.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACAJ;AACA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA,OCTG;EDUH;EACA;;AAGJ;EACI;EACA;EACA,OCjBG;EDkBH;;AAGI;EACI;;AAIR;EACI;;;AEhCZ;AAMA;EACI;IACI;;EAEJ;IACI;;EAEJ;IACI;IACA;IACA;;;AAIR;EACI;IACI;;;AAIR;EACI;IACI;;EAEJ;IACI","file":"ddjj_gcia_bs_pers.css"}
