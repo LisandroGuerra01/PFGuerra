@@ -15,20 +15,19 @@ header {
 header div.barrazul {
   position: sticky;
   top: 0;
-  width: 100%;
   z-index: 9999;
   transition: ease-in-out;
+}
+header .header-brand {
+  width: 50%;
 }
 header nav.barra {
   position: fixed;
   top: 0;
-  width: 100%;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 header nav.barra div.collapse a:hover {
   text-decoration: underline;
-}
-header nav.barra a:hover {
   background-color: grey;
 }
 

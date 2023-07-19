@@ -1,37 +1,6 @@
 @import "partials/reset";
 @import "partials/variables";
+@import "partials/mixins";
 
-/* barra navegacion */
-header{
-    width: 100%;
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    div.barrazul{
-        position: sticky;
-        top: 0;
-        width: $anchoMax;
-        z-index: 9999;
-        transition: ease-in-out;
-    }
-
-    nav.barra{
-        position: fixed;
-        top: 0;
-        width: $anchoMax;
-        padding-top: 40px;
-
-        div.collapse{
-            a:hover{
-                text-decoration: underline;
-            }
-        }
-
-        a:hover{
-            background-color: grey;
-        }
-    }
-}
+@include encabezados();
 @import "./partials/queries";
