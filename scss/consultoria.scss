@@ -6,7 +6,24 @@
 @include footer();
 
 main{
-    background-color: $color3
+    background-color: $color3;
+    .card{
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px;
+        transition: transform .5s;
+        background-color: $color2;
+        
+        img{
+            border-radius: 8px;
+        }
+    }
+    .card:hover{
+        transform: scale(1.03);
+        box-shadow: 5px 5px 10px;
+        h5{
+            
+        }
+    }
 }
 
 @import "./partials/queries";

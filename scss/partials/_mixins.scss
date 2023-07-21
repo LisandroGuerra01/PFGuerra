@@ -28,17 +28,17 @@ header{
         top: 0;
         padding-top: 2.5rem;
 
-        div.collapse{
-            ul{
-                li{
-                    color: $color1;
 
-                }
+        div.collapse{
+            a:hover{
+                border: white solid 0px;
+                border-radius: 8px;
+                background-color:rgba(68, 68, 68, 0.438);
             }
             .drop-servicios{
                 background-color: rgba(68, 68, 68, 0.425);
                 a:hover{
-                    background-color: #0d6efd;
+                    background-color: rgba(68, 68, 68, 0.438);
                 }
             }
         }

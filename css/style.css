@@ -31,14 +31,16 @@ header nav.barra {
   top: 0;
   padding-top: 2.5rem;
 }
-header nav.barra div.collapse ul li {
-  color: rgba(213, 216, 199, 0.7411764706);
+header nav.barra div.collapse a:hover {
+  border: white solid 0px;
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
 }
 header nav.barra div.collapse .drop-servicios {
   background-color: rgba(68, 68, 68, 0.425);
 }
 header nav.barra div.collapse .drop-servicios a:hover {
-  background-color: #0d6efd;
+  background-color: rgba(68, 68, 68, 0.438);
 }
 
 /*FOOTER*/
@@ -60,12 +62,21 @@ main .main-servicios .globo {
   border: 2px solid rgba(221, 221, 221, 0.658);
   background-color: rgba(209, 211, 220, 0.5568627451);
   border-radius: 8px;
-  box-shadow: 5px 5px 10px;
+  box-shadow: 2px 2px 5px;
+  transition: transform 0.5s;
 }
 main .main-servicios .globo img {
   width: 20rem;
   border-radius: 8px;
+  box-shadow: 2px 2px 5px;
+}
+main .main-servicios .globo:hover {
+  transform: scale(1.03);
   box-shadow: 5px 5px 10px;
+}
+main .main-servicios .globo:hover img {
+  border-radius: 8px;
+  box-shadow: 3px 5px 10px;
 }
 main .asesorate {
   padding: 140px 200px;

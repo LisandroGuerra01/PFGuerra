@@ -13,12 +13,24 @@ main{
             border: 2px solid rgba(221, 221, 221, 0.658);
             background-color: $color4;
             border-radius: 8px;
-            box-shadow: 5px 5px 10px;
+            box-shadow: 2px 2px 5px;
+            transition: transform .5s;
     
             img{    
                 width: 20rem;
                 border-radius: 8px;
-                box-shadow: 5px 5px 10px;
+                box-shadow: 2px 2px 5px;
+            }
+        }
+        .globo:hover{
+            transform: scale(1.03);
+            box-shadow: 5px 5px 10px;
+            img{    
+                border-radius: 8px;
+                box-shadow: 3px 5px 10px;
+            }
+            h5{
+                
             }
         }
     }
