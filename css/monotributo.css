@@ -6,6 +6,7 @@
 
 /* barra navegacion */
 header {
+  background-image: url(../../images/banner3.jpg);
   width: 100%;
   height: 50vh;
   background-position: center;
@@ -18,24 +19,48 @@ header div.barrazul {
   z-index: 9999;
   transition: ease-in-out;
 }
+header div.barrazul i {
+  color: #fcfcfc;
+}
 header .header-brand {
   width: 50%;
 }
 header nav.barra {
+  background-color: rgba(68, 68, 68, 0.425);
   position: fixed;
   top: 0;
   padding-top: 2.5rem;
 }
-header nav.barra div.collapse a:hover {
-  text-decoration: underline;
-  background-color: grey;
+header nav.barra div.collapse ul li {
+  color: rgba(213, 216, 199, 0.7411764706);
+}
+header nav.barra div.collapse .drop-servicios {
+  background-color: rgba(68, 68, 68, 0.425);
+}
+header nav.barra div.collapse .drop-servicios a:hover {
+  background-color: #0d6efd;
+}
+
+/*FOOTER*/
+footer a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+footer a i {
+  color: #fcfcfc;
+}
+
+main {
+  background-color: rgba(211, 213, 213, 0.5058823529);
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 767.98px) {
-  .fondo {
-    height: 30vh;
+@media (max-width: 575.98px) {
+  header {
+    height: 40vh;
   }
+}
+@media (max-width: 767.98px) {
   .footer-contact {
     display: grid;
   }
@@ -43,11 +68,6 @@ header nav.barra div.collapse a:hover {
     display: grid;
     row-gap: 20px;
     font-size: smaller;
-  }
-}
-@media (min-width: 991.98px) {
-  .asd {
-    display: none;
   }
 }
 @media (max-width: 968px) {

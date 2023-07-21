@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nuestro sitio de servicios contables te ofrece soluciones confiables y especializadas para todas tus necesidades financieras. Desde contabilidad y auditoría hasta impuestos y asesoramiento financiero, nuestro equipo de expertos está aquí para ayudarte a alcanzar el éxito financiero de tu negocio. Contáctanos ahora y descubre cómo podemos maximizar tu eficiencia y optimizar tus recursos financieros.">
-    <meta name="keywords" content="servicios contables, contabilidad, auditoría, impuestos, asesoramiento financiero, finanzas, recursos financieros, éxito financiero, eficiencia empresarial, expertos contables">
+    <meta name="description"
+        content="Nuestro sitio de servicios contables te ofrece soluciones confiables y especializadas para todas tus necesidades financieras. Desde contabilidad y auditoría hasta impuestos y asesoramiento financiero, nuestro equipo de expertos está aquí para ayudarte a alcanzar el éxito financiero de tu negocio. Contáctanos ahora y descubre cómo podemos maximizar tu eficiencia y optimizar tus recursos financieros.">
+    <meta name="keywords"
+        content="servicios contables, contabilidad, auditoría, impuestos, asesoramiento financiero, finanzas, recursos financieros, éxito financiero, eficiencia empresarial, expertos contables">
     <script src="https://kit.fontawesome.com/6c3a990f98.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -17,7 +19,7 @@
 
 <body>
     <!-- CABECERA -->
-    <header style="background-image: url(./images/banner3.jpg)">
+    <header>
         <!-- BARRA AZUL -->
         <div class="barrazul container-fluid text-bg-primary">
             <div class="row">
@@ -26,17 +28,17 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page"
                                 href="https://www.instagram.com/lisandroguerra/" target="blank">
-                                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.youtube.com/" target="blank">
-                                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-youtube"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.linkedin.com/in/lisandroguerracpn/" target="blank">
-                                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                             </a>
                         </li>
                     </ul>
@@ -45,12 +47,12 @@
                     <ul class="nav">
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="icono tel">
-                                <i class="fa-sharp fa-solid fa-phone" style="color: #fcfcfc;"></i>+549 (381)-5667777
+                                <i class="fa-sharp fa-solid fa-phone"></i>+549 (381)-5667777
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text text-white" href="#">
-                                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                                <i class="fa-solid fa-envelope"></i>
                                 cpnlisandroguerra@gmail.com
                             </a>
                         </li>
@@ -59,8 +61,8 @@
             </div>
         </div>
         <!-- BARRA GRIS -->
-        <nav class="barra navbar navbar-expand-md text-bg-secondary fixed-top">
-            <div class="container-fluid">
+        <nav class="barra navbar navbar-expand-md fixed-top">
+            <div class="container-fluid pt-2">
                 <div class="header-brand text-center">
                     <a class="navbar-brand" href="/index.html">
                         <img src="./images/logo_bueno.png" alt="logo" class="img-fluid" width="200px">
@@ -78,13 +80,13 @@
                         <li class="nav-item">
                             <a class="nav-link active text-white" href="/index.html">INICIO</a>
                         </li>
-                        <li class=" nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-white" href="quien_soy.html">¿QUIEN SOY?</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown">SERVICIOS</a>
-                            <ul class="dropdown-menu text-bg-secondary">
+                            <ul class="drop-servicios dropdown-menu">
                                 <li>
                                     <a class="dropdown-item text-white" href="monotributo.html">Monotributo</a>
                                 </li>
@@ -120,7 +122,7 @@
         </nav>
     </header>
     <!-- SERVICIOS PRINCIPALES -->
-    <main style="background-color:rgba(239, 240, 204, 0.397);">
+    <main>
         <div class="main-servicios container d-none d-md-block">
             <h2 class="text-center fs-1 p-4"><strong>SERVICIOS</strong></h2>
             <div class="row justify-content-center">
@@ -202,8 +204,8 @@
             </div>
         </div>
         <!-- CAROUSEL DE SERVICIOS -->
-        <div class="main-servicios-carousel row justify-content-center p-5 d-md-none">
-            <div id="carouselExample" class="carousel slide col-10">
+        <div class="main-servicios-carousel d-md-none">
+            <div id="carouselExample" class="carousel slide col-10 m-auto py-3">
                 <div class="carousel-inner text-center">
                     <div class="carousel-item carousel-item active img-thumbnail">
                         <img src="./images/cont1.webp" class="card-img-top img-fluid p-2" alt="imagen de monotributo">
@@ -220,7 +222,8 @@
                             alt="imagen de responsable inscripto">
                         <div class="card-body">
                             <h5 class="p-3">Responsable inscripto</h5>
-                            <p class="card-text">Asesoramiento fiscal y contable, declaración de impuestos, análisis
+                            <p class="card-text">Asesoramiento fiscal y contable, declaración de impuestos,
+                                análisis
                                 financiero y planificación estratégica. Optimizá tus obligaciones tributarias.</p>
                             <a href="./servicios.html">ver más</a>
                         </div>
@@ -251,7 +254,8 @@
                             alt="imagen de certificaciones">
                         <div class="card-body">
                             <h5 class="p-3">Certificaciones</h5>
-                            <p class="card-text">Elaboración de estados financieros, análisis de registros contables
+                            <p class="card-text">Elaboración de estados financieros, análisis de registros
+                                contables
                                 y emisión de informes confiables. Obtené la certificación contable que necesitás.
                             </p>
                             <a href="./servicios.html">ver más</a>
@@ -284,31 +288,39 @@
         </div>
         <!-- AREA DE TEXTO Y CANALES DE CONSULTAS -->
         <div class="container-fluid asesorate">
-            <div class="col-6">
+            <div class="col-sm-6">
                 <h3>ASESORATE</h3>
                 <div>
-                    <p>
-                        Lo primero que necesitás para alcanzar tu salud financiera, es el control de tus gastos.
-                        Saber cuál es tu ingreso y en que usas tu dinero, te va a permitir elegir la mejor
-                        estructura, con mas inteligencia y ayudarte a construir tu negocio.
+                    <p class="d-none d-md-block">
+                        ¿Querés llevar el control financiero de tu negocio al siguiente nivel? Estoy listo para
+                        ayduarte! Obtén tranquilidad
+                        y confianza al tomar decisiones financieras informadas y estratégicas. Desde la gestión de
+                        impuestos hasta el seguimiento de gastos, te voy a guiar en el complejo mundo de
+                        las finanzas empresariales. No subestimes el valor de una asesoría contable profesional:
+                        maximiza tu rentabilidad y optimiza tus recursos. ¡Contactame hoy mismo y descubre cómo podemos
+                        potenciar tu éxito financiero juntos!
                     </p>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label"></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-secondary"><strong>CONTACTAME</strong></button>
+                    <p class="d-md-none">
+                        Potencia el control financiero de tu negocio con mi asesoría contable profesional. Obtén
+                        tranquilidad y confianza en tus decisiones financieras. Maximiza la rentabilidad y optimiza
+                        recursos. ¡Contáctame ahora para alcanzar el éxito financiero juntos!
+                    </p>
+                    <button type="button" class="btn btn-secondary">
+                        <a href="./contacto.html">
+                            <strong>CONTACTAME</strong></button>
+                        </a>
                 </div>
             </div>
         </div>
 
         <!-- HACE TU CONSULTA -->
-        <div class="container-fluid row main-consulta">
+        <div class="container-fluid row main-consulta d-none d-sm-flex">
             <div class="col-6">
                 <h3>
                     HACEME TU CONSULTA <span><strong>SIN COMPROMISO</strong></span>
                 </h3>
                 <br>
-                <button type="button" class="btn btn-secondary "><strong>CANALES DE CONTACTO</strong></button>
+                <button type="button" class="btn btn-secondary"><strong>CANALES DE CONTACTO</strong></button>
             </div>
             <div class="col-6">
                 <form action="#" class="form mt-3 mb-3 form-main">
@@ -336,7 +348,7 @@
                         <label for="textAreaInput" class="form-label">Mensaje</label>
                         <textarea class="form-control border border-secondary" id="textAreaInput" rows="3"></textarea>
                     </div>
-                    <div>
+                    <div class="pt-2">
                         <button type="submit" class="col-3 btn btn-primary">Enviar</button>
                     </div>
                 </form>
@@ -356,8 +368,8 @@
         <div class="footer-contact footer-contacto row text-bg-dark p-3">
             <div class="col">
                 <div class="row">
-                    <a href="tel:+5498315667777" style="color: #fcfcfc;">
-                        <i class="bi bi-telephone-fill fs-1" style="color: #fcfcfc;"></i> WhatsApp
+                    <a href="tel:+5498315667777">
+                        <i class="bi bi-telephone-fill fs-1"></i> WhatsApp
                     </a>
                 </div>
                 <div class="row">
@@ -366,8 +378,8 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <a href="#" style="color: #fcfcfc;">
-                        <i class="bi bi-envelope-paper fs-1" style="color: #fcfcfc;"></i> Email
+                    <a href="#">
+                        <i class="bi bi-envelope-paper fs-1"></i> Email
                     </a>
                 </div>
                 <div class="row">
@@ -376,7 +388,7 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <a href="#" style="color: #fcfcfc;">
+                    <a href="#">
                         <i class="bi bi-geo-alt-fill fs-1"></i> Ubicación
                     </a>
                 </div>
@@ -391,17 +403,17 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="https://www.instagram.com/lisandroguerra/"
                             target="blank">
-                            <i class="fa-brands fa-instagram fs-3" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-instagram fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.youtube.com/" target="blank">
-                            <i class="fa-brands fa-youtube fs-3" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-youtube fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/lisandroguerracpn/" target="blank">
-                            <i class="fa-brands fa-linkedin fs-3" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-linkedin fs-3"></i>
                         </a>
                     </li>
                 </ul>
@@ -410,22 +422,22 @@
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#" target="blank">
-                            <i class="bi bi-currency-bitcoin fs-3" style="color: #ffffff;"></i>
+                            <i class="bi bi-currency-bitcoin fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" target="blank">
-                            <i class="bi bi-credit-card fs-3" style="color: #ffffff;"></i>
+                            <i class="bi bi-credit-card fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" target="blank">
-                            <i class="bi bi-credit-card-2-back-fill fs-3" style="color: #ffffff;"></i>
+                            <i class="bi bi-credit-card-2-back-fill fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" target="blank">
-                            <i class="bi bi-cash-stack fs-3" style="color: #ffffff;"></i>
+                            <i class="bi bi-cash-stack fs-3"></i>
                         </a>
                     </li>
                 </ul>

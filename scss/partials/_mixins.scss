@@ -1,6 +1,7 @@
 @mixin encabezados(){
     /* barra navegacion */
 header{
+    background-image: url(../../images/banner3.jpg);
     width: 100%;
     height: 50vh;
     background-position: center;
@@ -12,22 +13,48 @@ header{
         top: 0;
         z-index: 9999;
         transition: ease-in-out;
+
+        i{
+            color: $colorBlanco;
+        }
     }
     .header-brand{
         width: 50%;
     }
 
     nav.barra{
+        background-color: rgba(68, 68, 68, 0.425);
         position: fixed;
         top: 0;
         padding-top: 2.5rem;
 
         div.collapse{
-            a:hover{
-                text-decoration: underline;
-                background-color: grey;
+            ul{
+                li{
+                    color: $color1;
+
+                }
+            }
+            .drop-servicios{
+                background-color: rgba(68, 68, 68, 0.425);
+                a:hover{
+                    background-color: #0d6efd;
+                }
             }
         }
     }
 }
+}
+
+@mixin footer(){
+    /*FOOTER*/
+    footer{
+        a{
+            color: $colorBlanco;
+            text-decoration: none;
+            i{
+                color: $colorBlanco;
+            }
+        }
+    }
 }

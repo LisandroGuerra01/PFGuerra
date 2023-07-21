@@ -3,13 +3,15 @@
 @import "partials/mixins";
 
 @include encabezados();
+@include footer();
 
 /* servicios */
 main{
+    background: linear-gradient(to top, $color5, $color1);
     .main-servicios{
         .globo{
             border: 2px solid rgba(221, 221, 221, 0.658);
-            background-color: rgba(231, 223, 212, 0.719);
+            background-color: $color4;
             border-radius: 8px;
             box-shadow: 5px 5px 10px;
     
@@ -23,17 +25,23 @@ main{
     /* Asesorate */
     .asesorate{
         padding : 140px 200px;
-        color: rgb(255, 255, 255);
-        background-image: url(../images/banner4.jpg); /*cambiar esta imagen*/
+        color: $colorBlanco;
+        background-image: url(../images/baner5.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         text-shadow: 2px 1px 3px rgb(0, 0, 0);
-        
+        /* padding: 140px 200px; */
+        padding: 8% 10%;
+
         h3{
             padding-bottom: 15px;
             font-size: $fontSizeMediana;
             font-style: oblique;
+        }
+        a{
+            color: $colorBlanco;
+            text-decoration: none;
         }
     }
 
@@ -45,7 +53,7 @@ main{
     .form-main{
         padding: 1.5rem;
         border: 0.1rem solid rgba(141, 141, 141, 0.342);
-        background-color: rgba(236, 235, 233, 0.719);
+        background-color: $color4;
         border-radius: 8px;
         box-shadow: 5px 5px 10px;
 
