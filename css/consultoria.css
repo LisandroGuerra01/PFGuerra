@@ -60,6 +60,7 @@ main .card {
   box-shadow: 2px 2px 5px;
   transition: transform 0.5s;
   background-color: rgba(212, 214, 206, 0.5019607843);
+  width: 18rem;
 }
 main .card img {
   border-radius: 8px;
