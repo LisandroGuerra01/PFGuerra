@@ -80,3 +80,16 @@ header{
         margin: 0px 2px;
     }
 }
+
+@mixin consultorias(){
+    main{
+        background-color: $color3;
+        padding: 2rem;
+        h2{
+            color: white;
+            background-color: rgba(61, 117, 191, 0.377);
+            padding: 0.7rem;
+            border-radius: 8px;
+        }
+    }
+}

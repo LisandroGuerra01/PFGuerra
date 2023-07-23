@@ -79,6 +79,12 @@ main {
   background-color: rgba(211, 213, 213, 0.5058823529);
   padding: 2rem;
 }
+main h2 {
+  color: white;
+  background-color: rgba(61, 117, 191, 0.377);
+  padding: 0.7rem;
+  border-radius: 8px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 575.98px) {

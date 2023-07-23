@@ -5,9 +5,6 @@
 @include encabezados();
 @include footer();
 
-main{
-    background-color: $color3;
-    padding: 2rem;
-}
+@include consultorias();
 
 @import "./partials/queries";
