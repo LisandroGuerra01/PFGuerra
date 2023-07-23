@@ -65,6 +65,7 @@ footer .footer-redes a:hover {
 
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
+  padding: 2rem;
 }
 
 /* MEDIA QUERIES */
@@ -95,4 +96,4 @@ main {
   }
 }
 
-/*# sourceMappingURL=ri.css.map */
+/*# sourceMappingURL=freelancers.css.map */

@@ -6,7 +6,8 @@
 @include footer();
 
 main{
-    background-color: $color3
+    background-color: $color3;
+    padding: 2rem;
 }
 
 @import "./partials/queries";

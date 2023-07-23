@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* barra navegacion */
+header {
+  background-image: url(../../images/banner3.jpg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header div.barrazul {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  transition: ease-in-out;
+}
+header div.barrazul i {
+  color: #fcfcfc;
+}
+header .header-brand {
+  width: 50%;
+}
+header nav.barra {
+  background-color: rgba(68, 68, 68, 0.425);
+  position: fixed;
+  top: 0;
+  padding-top: 2.5rem;
+}
+header nav.barra div.collapse a:hover {
+  border: white solid 0px;
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+}
+header nav.barra div.collapse .drop-servicios {
+  background-color: rgba(68, 68, 68, 0.425);
+}
+header nav.barra div.collapse .drop-servicios a:hover {
+  background-color: rgba(68, 68, 68, 0.438);
+}
+
+/*FOOTER*/
+footer a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+footer a i {
+  color: #fcfcfc;
+}
+footer .footer-redes a:hover {
+  transform: scale(1.5);
+  transition: ease-in-out;
+}
+
+.link-active {
+  border: white solid 0px;
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+  margin: 0px 2px;
+}
+
+main {
+  background-color: rgba(211, 213, 213, 0.5058823529);
+  padding: 2rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 575.98px) {
+  header {
+    height: 40vh;
+  }
+}
+@media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
+  .footer-contact {
+    display: grid;
+  }
+  .footer-redes {
+    display: grid;
+    row-gap: 20px;
+    font-size: smaller;
+  }
+}
+@media (max-width: 968px) {
+  .header-azul-contacto {
+    display: none;
+  }
+  .boton-hamburguesa {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=profesionales.css.map */
