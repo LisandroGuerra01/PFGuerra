@@ -44,16 +44,18 @@ header{
         }
     }
     h1{
-        float: left;
-        width: 100%;
         position: absolute;
-        top: 22%;
-        left: 60%;
+        top: 23%;
+        left: 55%;
         font-size: 3rem;
         font-style:oblique;
         font-family:Arial, Helvetica, sans-serif;
         color: $colorBlanco;
         text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+        color: white;
+        background-color: rgba(61, 117, 191, 0.377);
+        padding: 0.7rem;
+        border-radius: 8px;
     }
 }
 }
@@ -85,7 +87,7 @@ header{
     main{
         background-color: $color3;
         padding: 2rem;
-        h2{
+        h3{
             color: white;
             background-color: rgba(61, 117, 191, 0.377);
             padding: 0.7rem;
