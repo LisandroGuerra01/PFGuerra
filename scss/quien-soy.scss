@@ -5,11 +5,19 @@
 @include encabezados();
 @include footer();
 
-header{
+header {
     background-image: url(../images/banner3.jpeg)
 }
-main{
-    background-color: $color3
+
+main {
+    background-color: $color3;
+    .sobrimi-title {
+        font-size: 160%;
+    }
+    
+    .sobrimi-content p {
+        text-align: justify;
+    }
 }
 
 @import "./partials/queries";

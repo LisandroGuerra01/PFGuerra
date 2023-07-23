@@ -51,6 +51,17 @@ footer a {
 footer a i {
   color: #fcfcfc;
 }
+footer .footer-redes a:hover {
+  transform: scale(1.5);
+  transition: ease-in-out;
+}
+
+.link-active {
+  border: white solid 0px;
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+  margin: 0px 2px;
+}
 
 header {
   background-image: url(../images/banner3.jpeg);
@@ -58,6 +69,12 @@ header {
 
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
+}
+main .sobrimi-title {
+  font-size: 160%;
+}
+main .sobrimi-content p {
+  text-align: justify;
 }
 
 /* MEDIA QUERIES */

@@ -56,5 +56,15 @@ header{
                 color: $colorBlanco;
             }
         }
+        .footer-redes a:hover {
+            transform: scale(1.5);
+            transition: ease-in-out;
+        }
+    }
+    .link-active {
+        border: white solid 0px;
+        border-radius: 8px;
+        background-color: rgba(68, 68, 68, 0.438);
+        margin: 0px 2px;
     }
 }
