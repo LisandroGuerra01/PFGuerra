@@ -5,8 +5,4 @@
 @include encabezados();
 @include footer();
 
-main{
-    background-color: $color3
-}
-
 @import "./partials/queries";

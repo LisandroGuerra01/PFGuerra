@@ -66,20 +66,66 @@ footer .footer-redes a:hover {
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
 }
-main .card {
+main section {
+  height: 22rem;
+}
+main section .card-rotate {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  perspective: 700px;
+  margin: auto;
+}
+main section .card-rotate .content-rotate {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+main section .card-rotate .content-rotate .front-rotate,
+main section .card-rotate .content-rotate .back-rotate {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+main section .card-rotate .content-rotate .front-rotate h3,
+main section .card-rotate .content-rotate .back-rotate h3 {
+  /* font-size: 1.5rem; */
+  color: white;
+  text-align: center;
+  background-color: rgba(61, 117, 191, 0.377);
+  padding: 0.7rem;
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+main section .card-rotate .content-rotate .back-rotate {
+  transform: rotateY(180deg);
+}
+main section .card-rotate:hover .content-rotate {
+  transform: rotateY(180deg);
+  transition: transform 0.8s;
+}
+main .card-mobile {
   border-radius: 8px;
   box-shadow: 2px 2px 5px;
   transition: transform 0.5s;
   background-color: rgba(212, 214, 206, 0.5019607843);
   width: 18rem;
+  height: auto;
 }
-main .card img {
+main .card-mobile img {
   border-radius: 8px;
 }
-main .card:hover {
-  transform: scale(1.03);
-  box-shadow: 5px 5px 10px;
+main .accordion-button {
+  background-color: rgba(211, 213, 213, 0.5058823529);
 }
+main .accordion-body {
+  background-color: #d0d2e3;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 575.98px) {
   header {
@@ -87,6 +133,9 @@ main .card:hover {
   }
 }
 @media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
   .footer-contact {
     display: grid;
   }

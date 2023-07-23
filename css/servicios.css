@@ -65,6 +65,39 @@ footer .footer-redes a:hover {
 
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
+  padding: 2rem;
+}
+main .row {
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px;
+  background-color: rgba(209, 211, 220, 0.5568627451);
+  margin-bottom: 2rem;
+}
+main .row img {
+  border-radius: 8px;
+}
+main .row .card-footer {
+  bottom: 8%;
+}
+main .row .card-footer-left {
+  right: 36%;
+  bottom: 8%;
+}
+main .card-mobile {
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px;
+  transition: transform 0.5s;
+  background-color: rgba(211, 213, 213, 0.5058823529);
+  height: auto;
+}
+main .card-mobile img {
+  border-radius: 8px;
+}
+main .accordion-button {
+  background-color: rgba(211, 213, 213, 0.5058823529);
+}
+main .accordion-body {
+  background-color: #d0d2e3;
 }
 
 /* MEDIA QUERIES */
@@ -74,6 +107,9 @@ main {
   }
 }
 @media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
   .footer-contact {
     display: grid;
   }

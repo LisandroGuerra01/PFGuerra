@@ -65,7 +65,7 @@ footer .footer-redes a:hover {
 
 /* servicios */
 main {
-  background: linear-gradient(to top, #d0d2e3, rgba(213, 216, 199, 0.7411764706));
+  background: rgba(211, 213, 213, 0.5058823529);
   /* Asesorate */
   /* Haceme tu consulta */
 }
@@ -75,11 +75,15 @@ main .main-servicios .globo {
   border-radius: 8px;
   box-shadow: 2px 2px 5px;
   transition: transform 0.5s;
+  height: 32rem;
 }
 main .main-servicios .globo img {
   width: 20rem;
   border-radius: 8px;
   box-shadow: 2px 2px 5px;
+}
+main .main-servicios .globo p {
+  text-align: justify;
 }
 main .main-servicios .globo:hover {
   transform: scale(1.03);
@@ -88,6 +92,18 @@ main .main-servicios .globo:hover {
 main .main-servicios .globo:hover img {
   border-radius: 8px;
   box-shadow: 3px 5px 10px;
+}
+main .carousel-item {
+  height: 32rem;
+  background-color: rgba(209, 211, 220, 0.5568627451);
+}
+main .carousel-item p {
+  text-align: justify;
+  padding: 0 2rem;
+}
+main .carousel-item .card-footer {
+  bottom: 1%;
+  left: 37%;
 }
 main .asesorate {
   padding: 140px 200px;
@@ -132,6 +148,9 @@ main .form-main input {
   }
 }
 @media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
   .footer-contact {
     display: grid;
   }

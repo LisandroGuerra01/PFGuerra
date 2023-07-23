@@ -76,6 +76,12 @@ main .sobrimi-title {
 main .sobrimi-content p {
   text-align: justify;
 }
+main .sobrimi-content p:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s;
+  background-color: rgba(68, 68, 68, 0.08);
+  border-radius: 8px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 575.98px) {
@@ -84,6 +90,9 @@ main .sobrimi-content p {
   }
 }
 @media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
   .footer-contact {
     display: grid;
   }

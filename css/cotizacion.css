@@ -63,10 +63,6 @@ footer .footer-redes a:hover {
   margin: 0px 2px;
 }
 
-main {
-  background-color: rgba(211, 213, 213, 0.5058823529);
-}
-
 /* MEDIA QUERIES */
 @media (max-width: 575.98px) {
   header {
@@ -74,6 +70,9 @@ main {
   }
 }
 @media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
   .footer-contact {
     display: grid;
   }
@@ -92,4 +91,4 @@ main {
   }
 }
 
-/*# sourceMappingURL=monotributo.css.map */
+/*# sourceMappingURL=cotizacion.css.map */

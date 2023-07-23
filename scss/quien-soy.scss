@@ -11,12 +11,19 @@ header {
 
 main {
     background-color: $color3;
+
     .sobrimi-title {
         font-size: 160%;
     }
-    
+
     .sobrimi-content p {
         text-align: justify;
+    }
+    .sobrimi-content p:hover {
+        transform: scale(1.03);
+        transition: transform 0.5s;
+        background-color: rgba(68, 68, 68, 0.08);
+        border-radius: 8px;
     }
 }
 
