@@ -31,10 +31,16 @@ header nav.barra {
   top: 0;
   padding-top: 2.5rem;
 }
-header nav.barra div.collapse a:hover {
-  border: white solid 0px;
+header nav.barra div.collapse .btn-group:hover {
   border-radius: 8px;
   background-color: rgba(68, 68, 68, 0.438);
+}
+header nav.barra div.collapse a:hover {
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+}
+header nav.barra div.collapse .btn-drop {
+  color: #fcfcfc;
 }
 header nav.barra div.collapse .drop-servicios {
   background-color: rgba(68, 68, 68, 0.425);

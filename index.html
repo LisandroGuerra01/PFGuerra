@@ -12,8 +12,8 @@
     <script src="https://kit.fontawesome.com/6c3a990f98.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -64,6 +64,7 @@
             </div>
         </div>
         <!-- BARRA GRIS -->
+        <!-- LOGO -->
         <nav class="barra navbar navbar-expand-md fixed-top">
             <div class="container-fluid pt-2">
                 <div class="header-brand text-center">
@@ -71,7 +72,7 @@
                         <img src="./images/logo_bueno.png" alt="logo" class="img-fluid" width="200px">
                     </a>
                 </div>
-
+                <!-- BTN HAMBURGUESA -->
                 <button class="navbar-toggler boton-hamburguesa" type="button" data-bs-toggle="collapse"
                     data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -90,29 +91,33 @@
                             <a class="nav-link text-white" href="servicios.html">SERVICIOS</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="consultoria.html"
-                                id="navbarDropdown" role="button" data-bs-toggle="dropdown">CONSULTORÍA</a>
-                            <ul class="drop-servicios dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item text-white" href="express.html">Express</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-white" href="impositiva.html">Impositiva</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-white" href="profesionales.html">Soporte para
-                                        Profesionales</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-white" href="costos.html">Análisis de Costos</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-white" href="negocio.html">Estrategia de Negocio</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-white" href="freelancers.html">Freelancers</a>
-                                </li>
-                            </ul>
+                            <div class="btn-group">
+                                <a class="btn-consultoria nav-link text-white" href="consultoria.html">CONSULTORÍA</a>
+                                <button type="button" class="btn-drop btn dropdown-toggle dropdown-toggle-split"
+                                    data-bs-toggle="dropdown">
+                                </button>
+                                <ul class="drop-servicios dropdown-menu m-2">
+                                    <li>
+                                        <a class="dropdown-item text-white" href="express.html">Express</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="impositiva.html">Impositiva</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="profesionales.html">Soporte para
+                                            Profesionales</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="costos.html">Análisis de Costos</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="negocio.html">Estrategia de Negocio</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-white" href="freelancers.html">Freelancers</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li class=" nav-item">
                             <a class="nav-link text-white" href="contacto.html">CONTACTO</a>
@@ -217,7 +222,8 @@
                                 fiscales.</p>
                         </div>
                         <div class="card-footer position-absolute">
-                            <a href="./monotributo.html"><button type="button" class="btn btn-outline-primary">ver más</button></a>
+                            <a href="./monotributo.html"><button type="button" class="btn btn-outline-primary">ver
+                                    más</button></a>
                         </div>
                     </div>
                     <div class="carousel-item img-thumbnail position-relative">
@@ -230,7 +236,8 @@
                                 financiero y planificación estratégica. Optimizá tus obligaciones tributarias.</p>
                         </div>
                         <div class="card-footer position-absolute">
-                            <a href="./ri.html"><button type="button" class="btn btn-outline-primary">ver más</button></a>
+                            <a href="./ri.html"><button type="button" class="btn btn-outline-primary">ver
+                                    más</button></a>
                         </div>
                     </div>
                     <div class="carousel-item img-thumbnail position-relative">
@@ -242,7 +249,8 @@
                                 y optimización de costos. Simplificá la gestión de tu personal aquí.</p>
                         </div>
                         <div class="card-footer position-absolute">
-                            <a href="./liq_sueldos.html"><button type="button" class="btn btn-outline-primary">ver más</button></a>
+                            <a href="./liq_sueldos.html"><button type="button" class="btn btn-outline-primary">ver
+                                    más</button></a>
                         </div>
                     </div>
                     <div class="carousel-item img-thumbnail position-relative">
@@ -255,7 +263,8 @@
                                 obligaciones fiscales con nosotros.</p>
                         </div>
                         <div class="card-footer position-absolute">
-                            <a href="./ddjj_gcia_bs_pers.html"><button type="button" class="btn btn-outline-primary">ver más</button></a>
+                            <a href="./ddjj_gcia_bs_pers.html"><button type="button" class="btn btn-outline-primary">ver
+                                    más</button></a>
                         </div>
                     </div>
                     <div class="carousel-item img-thumbnail position-relative">
@@ -269,7 +278,8 @@
                             </p>
                         </div>
                         <div class="card-footer position-absolute">
-                            <a href="./certificaciones.html"><button type="button" class="btn btn-outline-primary">ver más</button></a>
+                            <a href="./certificaciones.html"><button type="button" class="btn btn-outline-primary">ver
+                                    más</button></a>
                         </div>
                     </div>
                     <div class="carousel-item img-thumbnail position-relative">
@@ -283,7 +293,8 @@
                             </p>
                         </div>
                         <div class="card-footer position-absolute">
-                            <a href="./ev_ec_fra.html"><button type="button" class="btn btn-outline-primary">ver más</button></a>
+                            <a href="./ev_ec_fra.html"><button type="button" class="btn btn-outline-primary">ver
+                                    más</button></a>
                         </div>
                     </div>
                 </div>

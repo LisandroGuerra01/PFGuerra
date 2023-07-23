@@ -30,10 +30,16 @@ header{
 
 
         div.collapse{
-            a:hover{
-                border: white solid 0px;
+            .btn-group:hover{
                 border-radius: 8px;
                 background-color:rgba(68, 68, 68, 0.438);
+            }
+            a:hover{
+                border-radius: 8px;
+                background-color:rgba(68, 68, 68, 0.438);
+            }
+            .btn-drop{
+                color: $colorBlanco;
             }
             .drop-servicios{
                 background-color: rgba(68, 68, 68, 0.425);
