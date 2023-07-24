@@ -83,6 +83,10 @@ footer .footer-redes a:hover {
   margin: 0px 2px;
 }
 
+header {
+  background-image: url(../images/baner5.jpg);
+}
+
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
   padding: 2rem;
@@ -123,10 +127,10 @@ main .accordion-body {
 /* MEDIA QUERIES */
 @media (max-width: 575.98px) {
   header {
-    height: 40vh;
+    height: 35vh;
   }
   header h1 {
-    top: 20%;
+    top: 17%;
     left: 0%;
     font-size: 2.5rem;
   }

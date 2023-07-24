@@ -5,6 +5,9 @@
 @include encabezados();
 @include footer();
 
+header{
+    background-image:url(../images/baner5.jpg)
+}
 main{
     background-color: $color3;
     padding: 2rem;

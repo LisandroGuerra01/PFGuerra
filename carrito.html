@@ -82,7 +82,7 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white link-active" href="index.html">INICIO</a>
+                            <a class="nav-link active text-white" href="index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="quien_soy.html">¿QUIEN SOY?</a>
@@ -129,7 +129,65 @@
         </nav>
     </header>
     <main>
-
+        <section>
+            <div class="container py-3">
+                <h2 class="fw-bold">Carrito</h2>
+                <hr>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Item</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Acción</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="items">
+                        <tr>
+                            <td>1</td>
+                            <td>Liquidación de sueldos</td>
+                            <td>1</td>
+                            <td>
+                                <button class="btn btn-info btn-sm" id="btn-remove-item">
+                                    -
+                                </button>
+                                <button class="btn btn-primary btn-sm" id="btn-add-item">
+                                    +
+                                </button>
+                            </td>
+                            <td>$ 8.000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Asesoramiento impositivo</td>
+                            <td>2</td>
+                            <td>
+                                <button class="btn btn-info btn-sm" id="btn-remove-item">
+                                    -
+                                </button>
+                                <button class="btn btn-primary btn-sm" id="btn-add-item">
+                                    +
+                                </button>
+                            </td>
+                            <td>$ 16.000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr id="footer">
+                            <td colspan="4"></td>
+                            <td>
+                                <strong>$ 24.000</strong>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <hr>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-success btn-lg">Pagar</button>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- FOOTER -->
     <footer class="container-fluid text-center">
