@@ -1,0 +1,13 @@
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/mixins";
+
+@include encabezados();
+@include footer();
+
+main{
+    background-color: $color3;
+    padding: 2rem;
+}
+
+@import "./partials/queries";

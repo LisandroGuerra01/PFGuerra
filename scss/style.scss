@@ -1,0 +1,96 @@
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/mixins";
+
+@include encabezados();
+@include footer();
+
+/* servicios */
+main{
+    background: $color3;
+    .main-servicios{
+        .globo{
+            border: 2px solid rgba(221, 221, 221, 0.658);
+            background-color: $color4;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px;
+            transition: transform .5s;
+            height: $altoNormal;
+    
+            img{    
+                width: 20rem;
+                border-radius: 8px;
+                box-shadow: 2px 2px 5px;
+            }
+            p{
+                text-align: justify;
+            };
+        }
+        .globo:hover{
+            transform: scale(1.03);
+            box-shadow: 5px 5px 10px;
+            img{    
+                border-radius: 8px;
+                box-shadow: 3px 5px 10px;
+            }
+        }
+    }
+    .carousel-item{
+        height: $altoNormal;
+        background-color: $color4;
+        p{
+            text-align: justify;
+            padding: 0 2rem;
+        }
+        .card-footer{
+            bottom: 1%;
+            left: 37%;
+        }
+    }
+
+    /* Asesorate */
+    .asesorate{
+        padding : 140px 200px;
+        color: $colorBlanco;
+        background-image: url(../images/baner5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-shadow: 2px 1px 3px rgb(0, 0, 0);
+        /* padding: 140px 200px; */
+        padding: 8% 10%;
+
+        h3{
+            padding-bottom: 15px;
+            font-size: $fontSizeMediana;
+            font-style: oblique;
+        }
+        a{
+            color: $colorBlanco;
+            text-decoration: none;
+        }
+    }
+
+    /* Haceme tu consulta */
+    .main-consulta{
+        padding : 10rem 15rem;
+    }
+    
+    .form-main{
+        padding: 1.5rem;
+        border: 0.1rem solid rgba(141, 141, 141, 0.342);
+        background-color: $color4;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px;
+
+        input{
+            border-radius: 3px;
+            width: 50%;
+            height: 1.6rem;
+        }
+    }
+}
+
+
+// @import "./partials/bucles"
+@import "./partials/queries";

@@ -83,82 +83,15 @@ footer .footer-redes a:hover {
   margin: 0px 2px;
 }
 
-/* servicios */
 main {
-  background: rgba(211, 213, 213, 0.5058823529);
-  /* Asesorate */
-  /* Haceme tu consulta */
+  background-color: rgba(211, 213, 213, 0.5058823529);
+  padding: 2rem;
 }
-main .main-servicios .globo {
-  border: 2px solid rgba(221, 221, 221, 0.658);
-  background-color: rgba(209, 211, 220, 0.5568627451);
+main h3 {
+  color: white;
+  background-color: rgba(61, 117, 191, 0.377);
+  padding: 0.7rem;
   border-radius: 8px;
-  box-shadow: 2px 2px 5px;
-  transition: transform 0.5s;
-  height: 32rem;
-}
-main .main-servicios .globo img {
-  width: 20rem;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px;
-}
-main .main-servicios .globo p {
-  text-align: justify;
-}
-main .main-servicios .globo:hover {
-  transform: scale(1.03);
-  box-shadow: 5px 5px 10px;
-}
-main .main-servicios .globo:hover img {
-  border-radius: 8px;
-  box-shadow: 3px 5px 10px;
-}
-main .carousel-item {
-  height: 32rem;
-  background-color: rgba(209, 211, 220, 0.5568627451);
-}
-main .carousel-item p {
-  text-align: justify;
-  padding: 0 2rem;
-}
-main .carousel-item .card-footer {
-  bottom: 1%;
-  left: 37%;
-}
-main .asesorate {
-  padding: 140px 200px;
-  color: #fcfcfc;
-  background-image: url(../images/baner5.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-shadow: 2px 1px 3px rgb(0, 0, 0);
-  /* padding: 140px 200px; */
-  padding: 8% 10%;
-}
-main .asesorate h3 {
-  padding-bottom: 15px;
-  font-size: 30px;
-  font-style: oblique;
-}
-main .asesorate a {
-  color: #fcfcfc;
-  text-decoration: none;
-}
-main .main-consulta {
-  padding: 10rem 15rem;
-}
-main .form-main {
-  padding: 1.5rem;
-  border: 0.1rem solid rgba(141, 141, 141, 0.342);
-  background-color: rgba(209, 211, 220, 0.5568627451);
-  border-radius: 8px;
-  box-shadow: 5px 5px 10px;
-}
-main .form-main input {
-  border-radius: 3px;
-  width: 50%;
-  height: 1.6rem;
 }
 
 /* MEDIA QUERIES */
@@ -194,4 +127,4 @@ main .form-main input {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=freelancers.css.map */

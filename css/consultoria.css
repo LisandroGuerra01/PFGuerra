@@ -1,64 +1,182 @@
-.fondo{
-    width: 100%;
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.barrazul{
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    transition: ease-in-out;
+
+/* barra navegacion */
+header {
+  background-image: url(../../images/banner3.jpg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.barra{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-top: 40px;
+header div.barrazul {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  transition: ease-in-out;
 }
-.header-brand{
-    width: 50%;
+header div.barrazul i {
+  color: #fcfcfc;
 }
-.img-consulta div figure img{
-    
+header .header-brand {
+  width: 50%;
 }
+header nav.barra {
+  background-color: rgba(68, 68, 68, 0.425);
+  position: fixed;
+  top: 0;
+  padding-top: 2.5rem;
+}
+header nav.barra div.collapse .btn-group:hover {
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+}
+header nav.barra div.collapse a:hover {
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+}
+header nav.barra div.collapse .btn-drop {
+  color: #fcfcfc;
+}
+header nav.barra div.collapse .drop-servicios {
+  background-color: rgba(68, 68, 68, 0.425);
+}
+header nav.barra div.collapse .drop-servicios a:hover {
+  background-color: rgba(68, 68, 68, 0.438);
+}
+header h1 {
+  position: absolute;
+  top: 23%;
+  left: 55%;
+  font-size: 3rem;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fcfcfc;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  color: white;
+  background-color: rgba(61, 117, 191, 0.377);
+  padding: 0.7rem;
+  border-radius: 8px;
+}
+
+/*FOOTER*/
+footer a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+footer a i {
+  color: #fcfcfc;
+}
+footer .footer-redes a:hover {
+  transform: scale(1.5);
+  transition: ease-in-out;
+}
+
+.link-active {
+  border: white solid 0px;
+  border-radius: 8px;
+  background-color: rgba(68, 68, 68, 0.438);
+  margin: 0px 2px;
+}
+
+main {
+  background-color: rgba(211, 213, 213, 0.5058823529);
+}
+main section {
+  height: 22rem;
+}
+main section .card-rotate {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  perspective: 700px;
+  margin: auto;
+}
+main section .card-rotate .content-rotate {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+main section .card-rotate .content-rotate .front-rotate,
+main section .card-rotate .content-rotate .back-rotate {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+main section .card-rotate .content-rotate .front-rotate h3,
+main section .card-rotate .content-rotate .back-rotate h3 {
+  /* font-size: 1.5rem; */
+  color: white;
+  text-align: center;
+  background-color: rgba(61, 117, 191, 0.377);
+  padding: 0.7rem;
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+main section .card-rotate .content-rotate .back-rotate {
+  transform: rotateY(180deg);
+}
+main section .card-rotate:hover .content-rotate {
+  transform: rotateY(180deg);
+  transition: transform 0.8s;
+}
+main .card-mobile {
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px;
+  transition: transform 0.5s;
+  background-color: rgba(212, 214, 206, 0.5019607843);
+  width: 18rem;
+  height: auto;
+}
+main .card-mobile img {
+  border-radius: 8px;
+}
+main .accordion-button {
+  background-color: rgba(211, 213, 213, 0.5058823529);
+}
+main .accordion-body {
+  background-color: #d0d2e3;
+}
+
 /* MEDIA QUERIES */
-
-@media (max-width: 575.98px) { 
-    
+@media (max-width: 575.98px) {
+  header {
+    height: 35vh;
+  }
+  header h1 {
+    top: 17%;
+    left: 0%;
+    font-size: 2.5rem;
+  }
 }
-
-@media (max-width: 767.98px) { 
-    .fondo{
-        height: 30vh;
-    }
-    .footer-contact{
-        display: grid;
-    }
-    .footer-redes{
-        display: grid;
-        row-gap: 20px;
-        font-size: smaller;
-    }
+@media (max-width: 767.98px) {
+  main {
+    padding: 0;
+  }
+  .footer-contact {
+    display: grid;
+  }
+  .footer-redes {
+    display: grid;
+    row-gap: 20px;
+    font-size: smaller;
+  }
 }
-
-@media (min-width: 991.98px) {
-    .asd{
-        display: none;
-    }
-}
-
 @media (max-width: 968px) {
-    .header-azul-contacto{
-        display: none;
-    }
-    .boton-hamburguesa{
-        display: block;
-    }
+  .header-azul-contacto {
+    display: none;
+  }
+  .boton-hamburguesa {
+    display: block;
+  }
 }
 
-@media (max-width: 1399.98px) {
-    
-}
+/*# sourceMappingURL=consultoria.css.map */

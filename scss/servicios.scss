@@ -1,0 +1,48 @@
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/mixins";
+
+@include encabezados();
+@include footer();
+
+header{
+    background-image:url(../images/baner5.jpg)
+}
+main{
+    background-color: $color3;
+    padding: 2rem;
+    .row{
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px;
+        background-color: $color4;
+        margin-bottom: 2rem;
+        img{
+            border-radius: 8px;
+        }
+        .card-footer{
+            bottom: 8%;
+        }
+        .card-footer-left{
+            right: 36%;
+            bottom: 8%;
+        }
+    }
+    .card-mobile{
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px;
+        transition: transform .5s;
+        background-color: $color3;
+        height: auto;
+        img{
+            border-radius: 8px;
+        }
+    }
+    .accordion-button{
+        background-color: $color3;
+    }
+    .accordion-body{
+        background-color: $color5;
+    }
+}
+
+@import "./partials/queries";

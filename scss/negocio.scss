@@ -1,0 +1,10 @@
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/mixins";
+
+@include encabezados();
+@include footer();
+
+@include consultorias();
+
+@import "./partials/queries";
