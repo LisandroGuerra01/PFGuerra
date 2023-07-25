@@ -48,7 +48,7 @@ header nav.barra div.collapse .drop-servicios {
 header nav.barra div.collapse .drop-servicios a:hover {
   background-color: rgba(68, 68, 68, 0.438);
 }
-header h1 {
+header h2.titulo {
   position: absolute;
   top: 23%;
   left: 55%;
