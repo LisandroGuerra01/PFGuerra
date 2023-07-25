@@ -151,7 +151,7 @@ main .accordion-body {
   header {
     height: 35vh;
   }
-  header h1 {
+  header h2.titulo {
     top: 17%;
     left: 0%;
     font-size: 2.5rem;
