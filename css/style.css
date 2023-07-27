@@ -182,6 +182,11 @@ main .form-main input {
     font-size: smaller;
   }
 }
+@media (max-width: 991.98px) {
+  .main-servicios {
+    padding: 0;
+  }
+}
 @media (max-width: 968px) {
   .header-azul-contacto {
     display: none;

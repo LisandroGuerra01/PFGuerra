@@ -86,7 +86,7 @@ header {
 
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
-  padding: 2rem;
+  padding: 2rem 0;
 }
 main .row {
   border-radius: 8px;
@@ -108,7 +108,8 @@ main .card-mobile {
   border-radius: 8px;
   box-shadow: 2px 2px 5px;
   transition: transform 0.5s;
-  background-color: rgba(211, 213, 213, 0.5058823529);
+  background-color: rgba(212, 214, 206, 0.5019607843);
+  width: 18rem;
   height: auto;
 }
 main .card-mobile img {
@@ -143,6 +144,11 @@ main .accordion-body {
     display: grid;
     row-gap: 20px;
     font-size: smaller;
+  }
+}
+@media (max-width: 991.98px) {
+  .main-servicios {
+    padding: 0;
   }
 }
 @media (max-width: 968px) {
