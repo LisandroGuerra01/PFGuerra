@@ -31,6 +31,10 @@ header nav.barra {
   top: 0;
   padding-top: 2.5rem;
 }
+header nav.barra div.collapse .link-active {
+  background-color: rgba(68, 68, 68, 0.425);
+  border-radius: 8px;
+}
 header nav.barra div.collapse .btn-group:hover {
   border-radius: 8px;
   background-color: rgba(68, 68, 68, 0.438);

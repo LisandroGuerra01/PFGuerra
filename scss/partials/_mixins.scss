@@ -30,6 +30,10 @@ header{
 
 
         div.collapse{
+            .link-active{
+                background-color: rgba(68, 68, 68, 0.425);
+                border-radius: 8px;
+            }
             .btn-group:hover{
                 border-radius: 8px;
                 background-color:rgba(68, 68, 68, 0.438);
@@ -84,6 +88,9 @@ header{
 }
 
 @mixin consultorias(){
+    header{
+        height: 35vh;
+    }
     main{
         background-color: $color3;
         padding: 2rem;
