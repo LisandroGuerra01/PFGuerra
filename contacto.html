@@ -16,7 +16,8 @@
     <link rel="icon" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    <title>Contacto - CPN Lisandro Guerra</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Contacto - CPN Lisandro Guerra</title>
 </head>
 
 <body>
@@ -110,7 +111,8 @@
                                         <a class="dropdown-item text-white" href="./costos.html">Análisis de Costos</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item text-white" href="./negocio.html">Estrategia de Negocio</a>
+                                        <a class="dropdown-item text-white" href="./negocio.html">Estrategia de
+                                            Negocio</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item text-white" href="./freelancers.html">Freelancers</a>
@@ -173,31 +175,32 @@
                     <h2>
                         Dejame <span>tus dudas</span>
                     </h2>
-                    <form action="#" class="form mt-3 mb-3">
-                        <div class="mb-1">
-                            <label for="nameInput" class="form-label">Nombre</label>
-                            <input type="text" class="form-control border border-secondary" id="nameInput">
-                        </div>
-                        <div class="mb-1">
-                            <label for="emailInput" class="form-label">Email</label>
-                            <input type="text" class="form-control border border-secondary" id="emailInput">
-                        </div>
-                        <div class="mb-1">
-                            <label for="telInput" class="form-label">Teléfono</label>
-                            <input type="text" class="form-control border border-secondary" id="telInput">
-                        </div>
-                        <div class="mb-1">
-                            <label for="cityInput" class="form-label">Ciudad</label>
-                            <input type="text" class="form-control border border-secondary" id="cityInput">
-                        </div>
-                        <div class="mb-1">
-                            <label for="subjectInput" class="form-label">Asunto</label>
-                            <input type="text" class="form-control border border-secondary" id="subjectInput">
-                        </div>
-                        <div class="mb-3">
-                            <label for="textAreaInput" class="form-label">Mensaje</label>
-                            <textarea class="form-control border border-secondary" id="textAreaInput"
-                                rows="3"></textarea>
+                    <form action="https://formspree.io/f/xzbldpep" method="post" class="form mt-3 mb-3">
+                        <div>
+                            <div class="mb-1">
+                                <label for="nameInput" class="form-label">Nombre</label>
+                                <input type="text" class="form-control border border-secondary" id="nameInput" name="nameInput">
+                            </div>
+                            <div class="mb-1">
+                                <label for="emailInput" class="form-label">Email</label>
+                                <input type="text" class="form-control border border-secondary" id="emailInput" name="emailInput">
+                            </div>
+                            <div class="mb-1">
+                                <label for="telInput" class="form-label">Teléfono</label>
+                                <input type="number" class="form-control border border-secondary" id="telInput" name="telInput">
+                            </div>
+                            <div class="mb-1">
+                                <label for="cityInput" class="form-label">Ciudad</label>
+                                <input type="text" class="form-control border border-secondary" id="cityInput" name="cityInput">
+                            </div>
+                            <div class="mb-1">
+                                <label for="subjectInput" class="form-label">Asunto</label>
+                                <input type="text" class="form-control border border-secondary" id="subjectInput" name="subjectInput">
+                            </div>
+                            <div class="mb-3">
+                                <label for="textAreaInput" class="form-label">Mensaje</label>
+                                <textarea class="form-control border border-secondary" id="textAreaInput" rows="3" name="textAreaInput"></textarea>
+                            </div>
                         </div>
                         <button type="submit" class="col btn btn-primary">Enviar</button>
                     </form>
@@ -214,7 +217,7 @@
                 </a>
             </div>
         </div>
-                <!-- ENLACES DE CONTACTO -->
+        <!-- ENLACES DE CONTACTO -->
         <div class="footer-contact footer-contacto row text-bg-dark p-3">
             <div class="col">
                 <div class="row">
@@ -247,7 +250,7 @@
                 </div>
             </div>
         </div>
-            <!-- ICONOS REDES -->
+        <!-- ICONOS REDES -->
         <div class="footer-redes row text-bg-primary p-4">
             <div class="col">
                 <ul class="nav justify-content-center">
@@ -273,17 +276,17 @@
             <div class="col">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"target="blank">
+                        <a class="nav-link active" aria-current="page" target="blank">
                             <i class="bi bi-currency-bitcoin fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"target="blank">
+                        <a class="nav-link" target="blank">
                             <i class="bi bi-credit-card fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"target="blank">
+                        <a class="nav-link" target="blank">
                             <i class="bi bi-credit-card-2-back-fill fs-3"></i>
                         </a>
                     </li>
@@ -297,7 +300,25 @@
         </div>
     </footer>
 
-
+<!-- <script>
+    const $form = document.querySelector("#form")
+    $form.addEventListener("submit", handleSubmit)
+    async function handleSubmit(event){
+        event.preventDefault()
+        const form = new FormData(this)
+        const response = await fetch(this.action, {
+            method: this.method,
+            body: form,
+            headers: {
+                "Accept": "application/json"
+            }
+        })
+        if (response.ok){
+            this.reset()
+            alert("Gracias por contactarme, te escribiré pronto")
+        }
+    }
+</script> -->
 
     <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -311,7 +332,7 @@
     <script>
         AOS.init();
     </script>
-    
+
 </body>
 
 </html>

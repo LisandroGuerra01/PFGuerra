@@ -88,10 +88,10 @@ main {
 }
 main .main-servicios .globo {
   border: 2px solid rgba(221, 221, 221, 0.658);
-  background-color: rgba(209, 211, 220, 0.5568627451);
   border-radius: 8px;
   box-shadow: 2px 2px 5px;
   transition: transform 0.5s;
+  background-color: rgba(209, 211, 220, 0.5568627451);
   height: 32rem;
 }
 main .main-servicios .globo img {
