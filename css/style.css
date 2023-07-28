@@ -142,17 +142,13 @@ main .asesorate a {
   color: #fcfcfc;
   text-decoration: none;
 }
-main .main-consulta {
-  padding: 10rem 15rem;
-}
-main .form-main {
-  padding: 1.5rem;
+main .main-consulta .form-main {
   border: 0.1rem solid rgba(141, 141, 141, 0.342);
   background-color: rgba(209, 211, 220, 0.5568627451);
   border-radius: 8px;
   box-shadow: 5px 5px 10px;
 }
-main .form-main input {
+main .main-consulta input {
   border-radius: 3px;
   width: 50%;
   height: 1.6rem;

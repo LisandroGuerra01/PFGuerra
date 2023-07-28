@@ -73,16 +73,12 @@ main{
 
     /* Haceme tu consulta */
     .main-consulta{
-        padding : 10rem 15rem;
-    }
-    
     .form-main{
-        padding: 1.5rem;
         border: 0.1rem solid rgba(141, 141, 141, 0.342);
         background-color: $color4;
         border-radius: 8px;
         box-shadow: 5px 5px 10px;
-
+    }
         input{
             border-radius: 3px;
             width: 50%;
