@@ -116,7 +116,7 @@ main .carousel-item {
 }
 main .carousel-item p {
   text-align: justify;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 main .carousel-item .card-footer {
   bottom: 1%;
