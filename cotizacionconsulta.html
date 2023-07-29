@@ -111,7 +111,8 @@
                                         <a class="dropdown-item text-white" href="./costos.html">Análisis de Costos</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item text-white" href="./negocio.html">Estrategia de Negocio</a>
+                                        <a class="dropdown-item text-white" href="./negocio.html">Estrategia de
+                                            Negocio</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item text-white" href="./freelancers.html">Freelancers</a>
@@ -130,46 +131,46 @@
 
     <main>
         <div class="container">
-            <form>
-                <div class="row mb-4">
-                    <div class="col-md-6">
-                        <label for="nameInput" class="form-label">Nombre</label>
-                        <input type="name" class="form-control" id="nameInput">
+            <form class="p-2" action="https://formspree.io/f/xzbldpep" method="post">
+                <div>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <label for="nameInput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nameInput" name="nameInput">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="nameInput" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="nameInput" name="nameInput">
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <label for="nameInput" class="form-label">Apellido</label>
-                        <input type="name" class="form-control" id="nameInput">
+                    <div class="col-md-6 mb-4">
+                        <label for="telInput" class="form-label">Celular</label>
+                        <input type="number" class="form-control" id="telInput" name="telInput">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <label for="emailInput" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="correo@ejemplo.com"
+                            name="email">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <label for="inputState" class="form-label">Tipo de consulta</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Consulta Express $5.000</option>
+                            <option selected>Consulta Impositica $8.000</option>
+                            <option selected>Soporte para Profesionales $8.000</option>
+                            <option selected>Análisis de Costos $8.000</option>
+                            <option selected>Estrategia de Negocio $8.000</option>
+                            <option selected>Freelancers $5.000</option>
+                            <option selected>Elija una opción</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="textAreaInput" class="form-label">Detalle de la consulta</label>
+                        <textarea class="form-control border border-secondary" placeholder="Haceme tu consulta" id="textAreaInput"
+                            rows="5" name="textarea"></textarea>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <label for="telInput" class="form-label">Celular</label>
-                    <input type="number" class="form-control" id="telInput">
-                </div>
-                <div class="col-md-6 mb-4">
-                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="correo@ejemplo.com">
-                </div>
-                <div class="col-md-6 mb-4">
-                    <label for="inputState" class="form-label">Tipo de consulta</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Consulta Express $5.000</option>
-                        <option selected>Consulta Impositica $8.000</option>
-                        <option selected>Soporte para Profesionales $8.000</option>
-                        <option selected>Análisis de Costos $8.000</option>
-                        <option selected>Estrategia de Negocio $8.000</option>
-                        <option selected>Freelancers $5.000</option>
-                        <option selected>Elija una opción</option>
-                    </select>
-                </div>
-                <div class="mb-4">
-                    <label for="textAreaInput" class="form-label">Detalle de la consulta</label>
-                    <textarea class="form-control border border-secondary" placeholder="Comenta acerca de tu consulta" id="textAreaInput"
-                        rows="5"></textarea>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </main>
@@ -182,7 +183,7 @@
                 </a>
             </div>
         </div>
-                <!-- ENLACES DE CONTACTO -->
+        <!-- ENLACES DE CONTACTO -->
         <div class="footer-contact footer-contacto row text-bg-dark p-3">
             <div class="col">
                 <div class="row">
@@ -215,7 +216,7 @@
                 </div>
             </div>
         </div>
-            <!-- ICONOS REDES -->
+        <!-- ICONOS REDES -->
         <div class="footer-redes row text-bg-primary p-4">
             <div class="col">
                 <ul class="nav justify-content-center">
@@ -241,17 +242,17 @@
             <div class="col">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"target="blank">
+                        <a class="nav-link active" aria-current="page" target="blank">
                             <i class="bi bi-currency-bitcoin fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"target="blank">
+                        <a class="nav-link" target="blank">
                             <i class="bi bi-credit-card fs-3"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"target="blank">
+                        <a class="nav-link" target="blank">
                             <i class="bi bi-credit-card-2-back-fill fs-3"></i>
                         </a>
                     </li>

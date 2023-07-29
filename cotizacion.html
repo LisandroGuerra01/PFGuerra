@@ -130,46 +130,46 @@
 
     <main>
         <div class="container">
-            <form class="p-2">
-                <div class="row mb-4">
-                    <div class="col-md-6">
-                        <label for="nameInput" class="form-label">Nombre</label>
-                        <input type="name" class="form-control" id="nameInput">
+            <form class="p-2" action="https://formspree.io/f/xzbldpep" method="post">
+                <div>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <label for="nameInput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nameInput" name="nameInput">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="nameInput" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="nameInput" name="nameInput">
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <label for="nameInput" class="form-label">Apellido</label>
-                        <input type="name" class="form-control" id="nameInput">
+                    <div class="col-md-6 mb-4">
+                        <label for="telInput" class="form-label">Celular</label>
+                        <input type="number" class="form-control" id="telInput" name="telInput">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <label for="emailInput" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="emailInput"
+                            placeholder="correo@ejemplo.com" name="email">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <label for="subjectInput" class="form-label">Tipo de cotización</label>
+                        <select id="subjectInput" class="form-select">
+                            <option selected>Monotributo</option>
+                            <option selected>Responsable Inscripto</option>
+                            <option selected>Liquidación de Sueldos</option>
+                            <option selected>DDJJ Impuesto a la Ganancia/Bienes Personales</option>
+                            <option selected>Certificaciones Contables</option>
+                            <option selected>Evaluación Económica y Financiera</option>
+                            <option selected>Elija una opción</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <label for="textAreaInput" class="form-label">Detalle de la consulta</label>
+                        <textarea class="form-control border border-secondary" placeholder="Detalla tu actividad desarrollada y comenta acerca de tu consulta" id="textAreaInput"
+                            rows="5" name="textarea"></textarea>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <label for="telInput" class="form-label">Celular</label>
-                    <input type="number" class="form-control" id="telInput">
-                </div>
-                <div class="col-md-6 mb-4">
-                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="correo@ejemplo.com">
-                </div>
-                <div class="col-md-6 mb-4">
-                    <label for="inputState" class="form-label">Tipo de cotización</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Monotributo</option>
-                        <option selected>Responsable Inscripto</option>
-                        <option selected>Liquidación de Sueldos</option>
-                        <option selected>DDJJ Impuesto a la Ganancia/Bienes Personales</option>
-                        <option selected>Certificaciones Contables</option>
-                        <option selected>Evaluación Económica y Financiera</option>
-                        <option selected>Elija una opción</option>
-                    </select>
-                </div>
-                <div class="mb-4">
-                    <label for="textAreaInput" class="form-label">Detalle de la consulta</label>
-                    <textarea class="form-control border border-secondary" placeholder="Detalla tu actividad desarrollada y comenta acerca de tu consulta" id="textAreaInput"
-                        rows="5"></textarea>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </main>
