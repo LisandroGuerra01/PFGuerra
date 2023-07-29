@@ -97,13 +97,6 @@ main .row {
 main .row img {
   border-radius: 8px;
 }
-main .row .card-footer {
-  bottom: 8%;
-}
-main .row .card-footer-left {
-  right: 36%;
-  bottom: 8%;
-}
 main .card-mobile {
   border-radius: 8px;
   box-shadow: 2px 2px 5px;
