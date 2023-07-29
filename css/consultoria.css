@@ -84,19 +84,12 @@ main {
   background-color: rgba(211, 213, 213, 0.5058823529);
 }
 main section {
-  height: 22rem;
+  height: 25rem;
 }
 main section .card-rotate {
-  /* position: absolute; */
-  width: 100%;
-  height: 100%;
   perspective: 700px;
-  margin: auto;
 }
 main section .card-rotate .content-rotate {
-  /* position: absolute; */
-  width: 100%;
-  height: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -110,9 +103,7 @@ main section .card-rotate .content-rotate .back-rotate {
 }
 main section .card-rotate .content-rotate .front-rotate h3,
 main section .card-rotate .content-rotate .back-rotate h3 {
-  /* font-size: 1.5rem; */
   color: white;
-  text-align: center;
   background-color: rgba(61, 117, 191, 0.377);
   padding: 0.7rem;
   margin-top: 4rem;
@@ -144,7 +135,7 @@ main .accordion-body {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   header {
     height: 35vh;
   }
@@ -153,8 +144,6 @@ main .accordion-body {
     left: 0%;
     font-size: 2.5rem;
   }
-}
-@media (max-width: 767.98px) {
   main {
     padding: 0;
   }
@@ -165,11 +154,6 @@ main .accordion-body {
     display: grid;
     row-gap: 20px;
     font-size: smaller;
-  }
-}
-@media (max-width: 991.98px) {
-  .main-servicios {
-    padding: 0;
   }
 }
 @media (max-width: 968px) {

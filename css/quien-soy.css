@@ -101,7 +101,7 @@ main .sobrimi-content p:hover {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   header {
     height: 35vh;
   }
@@ -110,8 +110,6 @@ main .sobrimi-content p:hover {
     left: 0%;
     font-size: 2.5rem;
   }
-}
-@media (max-width: 767.98px) {
   main {
     padding: 0;
   }
@@ -122,11 +120,6 @@ main .sobrimi-content p:hover {
     display: grid;
     row-gap: 20px;
     font-size: smaller;
-  }
-}
-@media (max-width: 991.98px) {
-  .main-servicios {
-    padding: 0;
   }
 }
 @media (max-width: 968px) {
