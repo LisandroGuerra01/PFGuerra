@@ -12,6 +12,13 @@ header {
 main {
     background-color: $color3;
 
+    img {
+        filter: grayscale(100%);
+        transition: all .5s ease;
+    }
+    img:hover {
+        filter: grayscale(0%);
+    }
     .sobrimi-title {
         font-size: 160%;
     }

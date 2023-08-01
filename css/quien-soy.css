@@ -87,6 +87,13 @@ header {
 main {
   background-color: rgba(211, 213, 213, 0.5058823529);
 }
+main img {
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+main img:hover {
+  filter: grayscale(0%);
+}
 main .sobrimi-title {
   font-size: 160%;
 }
