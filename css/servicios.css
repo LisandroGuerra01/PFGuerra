@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
 /* barra navegacion */
 header {
   background-image: url(../../images/banner3.jpg);
@@ -93,6 +103,12 @@ main .row {
   box-shadow: 2px 2px 5px;
   background-color: rgba(209, 211, 220, 0.5568627451);
   margin-bottom: 2rem;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 35%;
+  animation-fill-mode: both;
 }
 main .row img {
   border-radius: 8px;

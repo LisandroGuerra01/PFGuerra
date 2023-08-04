@@ -1,6 +1,7 @@
 @import "partials/reset";
 @import "partials/variables";
 @import "partials/mixins";
+@import "partials/condicionales";
 
 @include encabezados();
 @include footer();
@@ -16,6 +17,14 @@ main{
         box-shadow: 2px 2px 5px;
         background-color: $color4;
         margin-bottom: 2rem;
+
+        view-timeline-name: --image;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 25% cover 35%;
+        animation-fill-mode: both;
+
         img{
             border-radius: 8px;
         }
